@@ -14,3 +14,28 @@
   display: flex;
   align-items: center;
 }
+
+.trybewarts-login input {
+  padding: 8px;
+  margin: 10px;
+  border-radius: 40px;
+  border: none;
+  outline: 0;
+}
+
+.trybewarts-login button {
+  margin-right: 8px;
+  border-radius: 40px;
+  padding: 8px;
+  border: none;
+  background-color: rgb(47 216 184);
+  color: rgb(59, 59, 59);
+}
+
+#trybewarts-header-title {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 80px;
+  padding-bottom: 30px;
+}
