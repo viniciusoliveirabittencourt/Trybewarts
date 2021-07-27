@@ -2,12 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Merienda', cursive;
 }
 
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
+}
+
+.header img {
+  width: 100px;
+  margin: 5px;
+  margin-left: 30px;
 }
 
 .trybewarts-login {
@@ -17,19 +24,22 @@
 
 .trybewarts-login input {
   padding: 8px;
-  margin: 10px;
+  margin: 5px;
   border-radius: 40px;
   border: none;
+  width: 250px;
   outline: 0;
 }
 
 .trybewarts-login button {
-  margin-right: 8px;
+  margin-right: 10px;
+  margin-left: 4px;
   border-radius: 40px;
-  padding: 8px;
+  width: 250px;
   border: none;
   background-color: rgb(47 216 184);
-  color: rgb(59, 59, 59);
+  color: white;
+  font-size: 25px;
 }
 
 #trybewarts-header-title {
@@ -37,5 +47,5 @@
   align-items: center;
   color: white;
   font-size: 80px;
-  padding-bottom: 30px;
+  margin-bottom: 10px;
 }
