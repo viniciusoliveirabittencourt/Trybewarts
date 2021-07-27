@@ -49,3 +49,18 @@
   font-size: 80px;
   margin-bottom: 10px;
 }
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+main form {
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main img {
+  height: 500px;
+}
