@@ -115,3 +115,7 @@ fieldset:nth-of-type( 3 ) label {
 fieldset:nth-of-type( 4 ) {
   margin-bottom: 15px;
 }
+
+fieldset:nth-of-type( 4 ) input {
+  margin-left: 5px;
+}
