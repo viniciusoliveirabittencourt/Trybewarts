@@ -52,13 +52,39 @@
 
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 main form {
   width: 675px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
+}
+
+fieldset {
+  border: none;
+  text-align: center;
+}
+
+#input-name {
+  width: 40%;
+  padding: 1px;
+}
+
+#input-lastname {
+  width: 40%;
+  padding: 1px;
+}
+
+#input-email {
+  width: 40%;
+  margin-top: 10px;
+  padding: 1px;
+}
+
+#house {
+  width: 40%;
 }
 
 .main img {
