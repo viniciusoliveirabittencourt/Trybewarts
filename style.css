@@ -139,3 +139,15 @@ fieldset:nth-of-type( 5 ) {
   align-self: center;
   justify-content: center;
 }
+
+footer {
+  background-color: rgb(50, 167, 145);
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
